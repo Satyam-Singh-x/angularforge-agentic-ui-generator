@@ -1,0 +1,24 @@
+# Core LLM / Agent Framework
+langchain>=0.2.0
+langchain-core>=0.2.0
+langgraph>=0.0.40
+
+# Google Generative AI integration
+langchain-google-genai>=1.0.0
+google-generativeai>=0.5.0
+
+# Streamlit App
+streamlit>=1.33.0
+
+# Environment management
+python-dotenv>=1.0.1
+
+# Data validation / models
+pydantic>=2.6.0
+
+# Utilities
+regex>=2023.12.25
+typing-extensions>=4.9.0
+
+# Optional (diff viewer enhancement)
+rich>=13.7.0

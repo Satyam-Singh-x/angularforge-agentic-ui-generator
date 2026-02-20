@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "primary": "#6366f1",
+    "secondary": "#9333ea",
+    "background": "#0f172a",
+    "text": "#ffffff"
+  },
+  "borderRadius": {
+    "default": "8px"
+  },
+  "font": {
+    "family": "Inter"
+  }
+}

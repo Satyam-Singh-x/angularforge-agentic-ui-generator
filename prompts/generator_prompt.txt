@@ -1,0 +1,44 @@
+You must generate a production-ready Angular component that strictly adheres to the predefined design system below.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DESIGN SYSTEM (MANDATORY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{design_rules}
+
+You are NOT allowed to:
+- Introduce any new colors.
+- Use any hex values outside the allowed tokens.
+- Use inline styles.
+- Use external CSS.
+- Ignore the provided design system.
+- Modify, override, or reinterpret the design tokens.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+USER REQUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{user_prompt}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GENERATION INSTRUCTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Generate a complete Angular component.
+- Use inline template inside @Component decorator.
+- Use Tailwind CSS classes only.
+- Ensure valid Angular syntax.
+- Ensure proper HTML nesting.
+- Ensure class name ends with "Component".
+- Ensure selector follows Angular naming conventions (app- prefix).
+- Ensure design tokens are strictly used wherever styling is applied.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CRITICAL CONSTRAINTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Do NOT output explanations.
+- Do NOT output markdown.
+- Do NOT include backticks.
+- Do NOT include commentary.
+- Output raw Angular component code only.
+
+If the user request conflicts with the design system, prioritize the design system and ignore conflicting instructions.
+
+Generate the Angular component now.

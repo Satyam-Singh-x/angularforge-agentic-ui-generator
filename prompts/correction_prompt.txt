@@ -1,0 +1,63 @@
+You are operating in correction mode inside a controlled Angular component generation system.
+
+Your task is to repair the previously generated Angular component.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MANDATORY DESIGN SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{design_rules}
+
+You MUST strictly adhere to this design system.
+You are NOT allowed to:
+- Introduce new colors.
+- Use unauthorized hex codes.
+- Add inline styles.
+- Override design tokens.
+- Change fonts outside allowed tokens.
+- Remove required Angular structure.
+
+If the previous code violates the design system, correct it to comply.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VALIDATION ERRORS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{error_logs}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ORIGINAL USER REQUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{user_prompt}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREVIOUSLY GENERATED CODE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{previous_code}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CORRECTION RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Fix ONLY the listed validation errors.
+2. Preserve the original intent of the component.
+3. Do NOT redesign the component unless required to fix errors.
+4. Maintain valid Angular structure:
+   - import { Component } from '@angular/core';
+   - @Component decorator
+   - selector
+   - inline template
+   - export class ending with "Component"
+5. Ensure proper HTML nesting.
+6. Ensure all brackets and tags are balanced.
+7. Ensure all styling strictly follows the design system.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTPUT REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Output ONLY the corrected Angular component.
+- Do NOT include explanations.
+- Do NOT include markdown formatting.
+- Do NOT include backticks.
+- Do NOT add commentary.
+
+If the component cannot be repaired without violating design rules, repair it in the most minimal compliant way possible.
+
+Return the corrected Angular component now.

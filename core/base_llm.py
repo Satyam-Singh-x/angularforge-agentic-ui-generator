@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 
-def get_llm(model_name: str = "gemini-1.5-flash", temperature: float = 0):
+def get_llm(model_name: str = "gemini-2.5-flash", temperature: float = 0):
 
     if "GOOGLE_API_KEY" not in st.secrets:
         raise ValueError("GOOGLE_API_KEY missing in Streamlit secrets.")

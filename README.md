@@ -4,6 +4,8 @@ AngularForge is an agentic AI system that generates, validates, and self-correct
 
 This project demonstrates structured LLM orchestration using LangGraph, hybrid validation, and controlled generation pipelines.
 
+Live app link: https://angularforge-agentic-ui-generator-bysatyam.streamlit.app/
+
 ---
 
 ## 🚀 Features

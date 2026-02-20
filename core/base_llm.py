@@ -8,6 +8,8 @@ load_dotenv()
 
 def get_llm(model_name="gemini-2.5-flash", temperature=0.2):
     api_key = st.secrets.get("GOOGLE_API_KEY")
+     if not api_key:
+        raise ValueError("GOOGLE_API_KEY is empty.")
     return ChatGoogleGenerativeAI(
         model=model_name,
         temperature=temperature,

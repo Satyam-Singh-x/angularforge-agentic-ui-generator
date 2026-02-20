@@ -107,7 +107,7 @@ using a controlled AI agentic workflow.
 # ===================== RUN AGENT =====================
 if generate_button and user_prompt:
     with st.spinner("Running Agentic Workflow..."):
-        result = run_agent(user_prompt)
+        result = run_agent(user_prompt,max_retries)
 
     st.session_state["result"] = result
     st.session_state["original_prompt"] = user_prompt

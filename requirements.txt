@@ -3,9 +3,9 @@ langchain>=0.2.0
 langchain-core>=0.2.0
 langgraph>=0.0.40
 
-# Google Generative AI integration
-langchain-google-genai>=1.0.0
-google-generativeai>=0.5.0
+#groq for llm integration
+langchain-groq
+groq
 
 # Streamlit App
 streamlit>=1.33.0
